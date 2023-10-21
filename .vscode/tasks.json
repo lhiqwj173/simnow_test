@@ -1,0 +1,51 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "GCC",
+			"command": "D:\\programs\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-std=c++2a",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: D:\\programs\\mingw64\\bin\\g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "MSVC",
+			"command": "cl.exe",
+			"args": [
+				"/arch:IA32",
+				"/Zi",
+				"/EHsc",
+				"/Fo${workspaceFolder}\\Release\\",
+				"/Fe${workspaceFolder}\\Release\\simple_test.exe",
+				"${workspaceFolder}\\*.cpp",
+				"/link",
+				"/LIBPATH:20210406_tradeapi_se_windows",
+				"thostmduserapi_se.lib",
+				"thosttraderapi_se.lib",
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"detail": "编译器: cl.exe"
+		}
+	]
+}

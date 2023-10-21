@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "调试",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\Release\\simple_test.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        }
+    ],
+    "version": "2.0.0"
+}

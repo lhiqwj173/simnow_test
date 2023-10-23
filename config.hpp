@@ -36,6 +36,8 @@ public:
         BROKER_ID,
         USER_ID,
         PASSWORD,
+        LOCAL_CODES,
+        EXCHANGE,
     };
 
 private:
@@ -46,6 +48,8 @@ private:
         {BROKER_ID, "broker_id"},
         {USER_ID, "user_id"},
         {PASSWORD, "password"},
+        {LOCAL_CODES, "if_local_codes"},
+        {EXCHANGE, "exchangeid"},
     };
 
     // 储存原始字符串参数

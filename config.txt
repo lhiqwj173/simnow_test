@@ -1,6 +1,13 @@
-md_front_addr=tcp://180.168.146.187:10131
-trade_front_addr=tcp://180.168.146.187:10130
+# md_front_addr=tcp://180.168.146.187:10131
+# trade_front_addr=tcp://180.168.146.187:10130
+md_front_addr=tcp://218.202.237.33:10213
+trade_front_addr=tcp://218.202.237.33:10203
 
 broker_id=9999
-user_id=qtz173
-password=9yqeRhhU3L93@hA
+user_id=218981
+password=@qtz173qtz173
+
+# 是否使用本地codes
+if_local_codes=0
+# 需要订阅的交易所id
+exchangeid=DCE

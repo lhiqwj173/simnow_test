@@ -1,5 +1,5 @@
 ﻿#include "20210406_tradeapi_se_windows/ThostFtdcMdApi.h"
-#include "data.h"
+#include "handles.h"
 #include "reporter.hpp"
 #include "config.hpp"
 
@@ -8,7 +8,7 @@
 class MdSpi : public CThostFtdcMdSpi
 {
 public:
-    MdSpi(reporter_base *_reporter, data *_data) : reporter(_reporter), data_handles(_data){};
+    MdSpi(reporter_base *_reporter, handles *_handles) : reporter(_reporter), data_handles(_handles){};
 
     /// 当客户端与交易后台建立起通信连接时（还未登录前），该方法被调用。
     virtual void OnFrontConnected() override;
@@ -60,7 +60,7 @@ protected:
     reporter_base *reporter = nullptr;
 
     // 行情处理器
-    data *data_handles = nullptr;
+    handles *data_handles = nullptr;
 
 public:
     // 退订行情

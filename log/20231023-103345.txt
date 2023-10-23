@@ -1,0 +1,421 @@
+[Md]添加处理器: file_keeper
+[Md]添加处理器: mem_keeper
+[Md]连接建立
+[Md]登入 ...
+[Trade]连接建立
+[Trade]登入 ...
+[Trade]发送成功
+[Md]登入成功
+[Md]交易日: 20231023
+[Trade]登入成功
+[Trade]查询代码可交易标的
+[Trade]发送成功
+[Trade]查询代码完成
+[Md]发送成功
+[Md]订阅成功: a2311
+[Md]订阅成功: a2401
+[Md]订阅成功: a2403
+[Md]订阅成功: a2405
+[Md]订阅成功: a2407
+[Md]订阅成功: a2409
+[Md]订阅成功: b2311
+[Md]订阅成功: b2312
+[Md]订阅成功: b2401
+[Md]
+[Md]更新数据: a2311 10:33:40 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:43 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:41 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2405 10:33:40 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2407 10:33:40 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2409 10:33:39 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:43 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:42 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2401 10:33:43 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:46 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:46 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2401 10:33:46 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:46 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:46 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:47 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:33:48 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:48 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:48 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:48 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2401 10:33:48 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:48 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:48 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:49 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2401 10:33:49 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:49 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:49 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:50 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:50 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:51 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:51 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:52 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:52 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2401 10:33:52 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:52 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:52 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:52 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2401 10:33:53 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:53 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:54 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:54 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2401 10:33:54 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:55 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:55 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:55 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2401 10:33:55 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:55 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:55 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:33:56 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:56 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2312 10:33:56 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:56 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:33:57 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: b2311 10:33:57 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]退订行情: 9 个
+[Md]发送成功
+[Md]退订成功: b2311
+[Md]退订成功: b2312
+[Md]退订成功: b2401
+[Md]
+[Md]更新数据: a2311 10:33:57 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:57 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:57 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2407 10:33:57 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2405 10:33:57 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2409 10:33:57 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:33:58 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:58 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:58 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2407 10:33:58 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2405 10:33:58 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2409 10:33:58 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:33:58 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:58 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:58 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2407 10:33:58 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2405 10:33:58 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2409 10:33:58 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]退订行情: 6 个
+[Md]发送成功
+[Md]退订成功: a2407
+[Md]退订成功: a2409
+[Md]
+[Md]更新数据: a2311 10:33:59 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:59 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:59 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2405 10:33:59 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:33:59 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:33:59 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:33:59 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2405 10:33:59 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:34:00 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:34:00 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2405 10:34:00 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]退订行情: 4 个
+[Md]发送成功
+[Md]退订成功: a2405
+[Md]
+[Md]更新数据: a2311 10:34:00 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:34:00 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:34:00 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:34:01 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:34:01 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:34:01 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2401 10:34:01 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2403 10:34:01 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]退订行情: 3 个
+[Md]发送成功
+[Md]退订成功: a2403
+[Md]退订行情: 2 个
+[Md]发送成功
+[Md]退订成功: a2401
+[Md]
+[Md]更新数据: a2311 10:34:03 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:34:04 0
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]
+[Md]更新数据: a2311 10:34:04 500
+[Md]处理: file_keeper
+[Md]处理: mem_keeper
+[Md]退订行情: 1 个
+[Md]发送成功
+[Md]退订成功: a2311
+[Md]退登 ...
+[Md]发送成功
+[Md]ErrorID=77, ErrorMsg=CTP:无此功能
+[Trade]发送成功
+[Trade]退登成功

@@ -4,21 +4,55 @@
 #include <string>
 #include <iostream>
 #include <mutex>
+#include <ctime>
+#include <fstream>
+#include <io.h>
+#include <direct.h>
 
 ///////////////////////////////
 // 负责输出信息
 ///////////////////////////////
 
-// 线程互斥量
-extern std::mutex actMutex;
-
 class reporter_base
 {
+private:
+    // 线程互斥量
+    std::mutex writeMutex;
+
 protected:
-    int requestID = 0;
+    // 文件流
+    std::ofstream _file;
+
+    // 写入计数
+    int _write_count = 0;
+
+    // 文件名
+    std::string filename;
 
 public:
-    virtual ~reporter_base(){};
+    reporter_base()
+    {
+        // 检查路径
+        if (_access("log", 0) == -1)
+        {
+            _mkdir("log");
+        }
+
+        std::time_t currentTime = std::time(nullptr);
+        char buffer[80];
+        std::strftime(buffer, sizeof(buffer), "%Y%m%d-%H%M%S", std::localtime(&currentTime));
+
+        // 文件名 log-20210406-093000.txt
+        filename = std::string("log/") + buffer + ".txt";
+        _file.open(filename.data(), std::ios::app);
+    };
+
+    virtual ~reporter_base()
+    {
+        // 关闭文件
+        if (_file.is_open())
+            _file.close();
+    };
 
     // 返回类型名称
     // [Md]
@@ -28,8 +62,18 @@ public:
     void report(const std::string &msg)
     {
         // 锁
-        std::lock_guard<std::mutex> lock(actMutex);
+        std::lock_guard<std::mutex> lock(writeMutex);
         std::cout << name() << msg << std::endl;
+
+        _file << name() << msg << std::endl;
+        _write_count++;
+
+        // 每100条保存重开文件
+        if (_write_count % 100 == 0)
+        {
+            _file.close();
+            _file.open(filename.data(), std::ios::app);
+        }
     }
 
     void report_send_ret(const int ret)

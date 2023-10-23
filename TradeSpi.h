@@ -13,6 +13,15 @@ public:
     /// 登录请求响应
     virtual void OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) override;
 
+    /// 登出请求响应
+    virtual void OnRspUserLogout(CThostFtdcUserLogoutField *pUserLogout, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) override;
+
+	/// 请求查询合约响应
+	virtual void OnRspQryInstrument(CThostFtdcInstrumentField *pInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) override;
+    
+    // 退登
+    void logout();
+
 protected:
     // 处理器
     reporter_base *reporter = nullptr;
@@ -22,4 +31,7 @@ protected:
 
     // 登入
     void login();
+
+    // 请求代码
+    void ask_codes();
 };

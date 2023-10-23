@@ -1,7 +1,7 @@
 ﻿#include "20210406_tradeapi_se_windows/ThostFtdcMdApi.h"
 #include "MdSpi.h"
 #include "TradeSpi.h"
-#include "data.h"
+#include "handles.h"
 #include "reporter.hpp"
 #include "config.hpp"
 
@@ -13,14 +13,25 @@
 #include <atomic>
 
 // 全局变量
+// api
 CThostFtdcMdApi *Mdapi;
 CThostFtdcTraderApi *Tradeapi;
-std::vector<std::string> codes;
+
+// 连接标志
 std::atomic<int> connect_flag;
 
-// 线程互斥量
-std::mutex actMutex;
+// 可订阅代码 <交易所id: <代码id>>
+std::map<std::string, std::vector<std::string>> all_codes;
 
+// 本地读取代码
+std::vector<std::string> local_codes;
+
+// api线程互斥量
+std::mutex actMutex;
+std::condition_variable cv;
+bool all_codes_done = false;
+
+// 本地读取
 void read_codes(std::vector<std::string> &codes)
 {
     std::ifstream infile("codes.txt");
@@ -44,11 +55,11 @@ int main()
     // std::cin >> user_id;
     // printf("密码：");
     // std::cin >> password;
+    // 读取配置文件
     Config *config = Config::getInstance();
 
-    // 订阅代码
-    read_codes(codes);
-
+    // 本地读取代码
+    read_codes(local_codes);
     connect_flag = 0;
     ///////////////
     // 行情
@@ -57,7 +68,7 @@ int main()
     reporter_md _md{};                          // 处理类
 
     // 数据处理管理类
-    data data_handles;
+    handles data_handles;
     data_handles.add_handler(file_keeper::getInstance()); // 添加文件储存
     data_handles.add_handler(mem_keeper::getInstance());  // 添加内存储存
 
@@ -86,21 +97,26 @@ int main()
         return 0;
     }
 
-    // 等待 30 秒
-    for (int i = 0; i < 30; i++)
+    // 等待 60 秒
+    for (int i = 0; i < 10; i++)
     {
         Sleep(1000);
     }
 
     // 准备退出
+    // 退订
     mdCollector.unsubdata();
+    trader.logout();
 
     // 等待线程结束
-    Mdapi->Join();
-    Mdapi->Release();
-    Tradeapi->Join();
-    Tradeapi->Release();
+    // Mdapi->Join();
+    // Tradeapi->Join();
 
-    getchar();
+    // 等待退出
+    while (connect_flag > 0)
+    {
+        Sleep(1000);
+    }
+
     return 0;
 }

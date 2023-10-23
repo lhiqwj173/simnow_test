@@ -57,6 +57,7 @@
         "xutility": "cpp",
         "vector": "cpp",
         "fstream": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "*.rh": "cpp"
     }
 }

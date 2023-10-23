@@ -1,0 +1,9 @@
+[Md]添加处理器: file_keeper
+[Md]添加处理器: mem_keeper
+[Trade]连接建立
+[Trade]登入 ...
+[Trade]发送成功
+[Trade]登入成功
+[Trade]发送成功
+[Trade]OnRspUserLogout
+[Trade]退登成功
